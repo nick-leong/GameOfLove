@@ -235,4 +235,7 @@ function displayMeta()
     -- displays update rate of cell states
     love.graphics.print('Rate: ' .. string.format("%.2f", tostring(update_rate/60)) .. 's', 10, 30)
 
+    -- displays gameState
+    love.graphics.print('On: ' .. tostring(gameState) , 10, 40)
+
 end
