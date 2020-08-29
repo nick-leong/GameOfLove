@@ -128,6 +128,7 @@ function clearCells()
     for i=1,VIRTUAL_HEIGHT do
         for j=1,VIRTUAL_WIDTH do
             cells[i][j].state = 0
+            cells[i][j].nextState = 0
         end
     end
 end
